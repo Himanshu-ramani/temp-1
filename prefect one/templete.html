@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width = device-width" />
+    <link rel="stylesheet" href="./templete.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>RESUME / TEMPLETE</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <label for="filefeild">  <img class="img" src="./person.jpg" alt="" srcset="" id="img-f" /></label>
+        <input type="file" name="" id="filefeild" class="file">
+        <div class="name">
+          <h1 class='bigname' id="bigname"><input type="text" class="bigname"  placeholder="NAME" name="" id=""></h1>
+          <h3 class='bignamepost'><input type="text" placeholder="Post" class="post"></h3>
+        </div>
+      </header>
+      <div class="info">
+        <section class="first">
+          <div class="profile">
+            <h1 class="heading">PERSONAL PROFILE</h1>
+            <div class="underline"></div>
+            <p class='aboutp'>
+              <textarea name="" spellcheck="false" placeholder="About yourself" class="about" id="" cols="30" rows="2"></textarea>
+            </p>
+          </div>
+          <div class="contact">
+            <h1 class="heading">CONTACT</h1>
+            <div class="underline"></div>
+            <p id="addressp">
+            <button id="btn-address" >-</button>  <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;
+              <textarea name="" class="address" placeholder="Address" id="" cols="" rows="1"></textarea>
+            </p>
+            <p id='emailp'>
+              <button id="btn-email" >-</button> <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;
+              <input type="text" placeholder="E-mail" class="email">
+            </p>
+            <p id='numberp'>
+              <button id="btn-number">-</button> <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp;
+              <input type="number" name="" placeholder="Ph. Number" class="number" id="">
+            </p class='edit'>
+            <p class="linkedinp">
+              <button id="btn-linkedin">-</button>  <i class="fa fa-linkedin" aria-hidden="true"></i>
+              &nbsp;&nbsp;
+              
+                <input type="text" class="linkedin" placeholder="Linked in" name="" id=""></a
+              >
+            </p>
+          </div>
+          <h1 class="heading">EDUCATION</h1>
+          <div class="underline"></div>
+          <div class="eduction">
+            <p class='edit'>
+              <i class="fa fa-institution" aria-hidden="true"></i
+              >&nbsp;&nbsp;<input type="text" placeholder="University" name="" class="collage" id="">
+            </p>
+            <p>
+              <i class="fa fa-mortar-board" aria-hidden="true"></i
+              >&nbsp;&nbsp;<input type="text" class="collage" placeholder="Degree" name="" id="">
+            </p>
+          </div>
+        </section>
+        <section class="second">
+          <div class="skill">
+            <h1 class="heading">SKILLS</h1> 
+            <div class="underline"></div>
+            <button id="skill-btn-add" >+</button>
+            <ul id="skill-container">
+              
+              <li><textarea name="" id="" class="skills" cols="43" rows="1" placeholder="Skill"></textarea> <button id="subSkill" class="subskill">-</button></li>
+            </ul>
+          </div>
+          <h1 class="heading">WORK EXPERINCE</h1>
+            <div class="underline"></div>
+            <button id="btn-exp">+</button>
+          <div class="experince" id="exp-cont">
+            <h2 class='edit'><input type="text"   placeholder="compnay"  name="" class="compnay"  > <span class=" edit"> <input type="text"  placeholder="post" name="" class="comp-post"></span></h2>
+            <p class="date edit"><input type="text" placeholder="Duration"></p>
+            <button id="btn-exp" onclick="exp()">+</button>
+            <ul class="exp-container">
+              <li><textarea name="" id="" placeholder="Work Experince" cols="43" rows="1" class="skills"></textarea><button>-</button> </li>
+             
+            </ul>
+            
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="pdf-c">
+    <a href="#" id="pdf-btn"  rel="noopener noreferrer">Save PDF</a>
+    </div>
+    <script src="./resume.js"></script>
+  </body>
+</html>

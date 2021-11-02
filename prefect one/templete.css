@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  background: transparent;
+  outline: none;
+  border: none;
+  -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+  color-adjust: exact !important; /*Firefox*/
+}
+@media print {
+  @page {
+    margin: 0;
+  }
+  body {
+    margin: auto;
+  }
+}
+.page {
+  /* height: 1123px; */
+  width: 794px;
+  margin: auto;
+}
+header {
+  height: 230px;
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 15px;
+  margin-left: 30px;
+}
+.name {
+  margin: auto;
+  color: white;
+  letter-spacing: 3px;
+}
+.bigname {
+  font-size: 2rem;
+  margin: auto;
+  color: white;
+  letter-spacing: 3px;
+}
+.name h3 {
+  font-weight: 450;
+  margin-top: 10px;
+}
+.post {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+.info {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.first {
+  width: 90%;
+  margin: 30px;
+}
+.second {
+  background: rgba(128, 128, 128, 0.137);
+  padding: 30px;
+}
+.heading {
+  color: grey;
+  font-weight: 550;
+  letter-spacing: 4px;
+  margin-top: 30px;
+}
+.underline {
+  height: 5px;
+  width: 60px;
+  background: grey;
+  margin: 10px 0;
+}
+p {
+  color: rgba(0, 0, 0, 0.582);
+  margin-bottom: 10px;
+}
+.linkedin a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.582);
+}
+ul {
+  margin: 20px;
+  color: rgba(0, 0, 0, 0.507);
+}
+h2 {
+  font-weight: 450;
+}
+.post {
+  color: rgba(0, 0, 0, 0.658);
+  font-size: 1rem;
+}
+/* neew */
+.post {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+}
+textarea {
+  resize: none;
+}
+.about {
+  color: rgba(0, 0, 0, 0.815);
+  font-size: 1.1rem;
+}
+button {
+  background-color: gray;
+  height: 20px;
+  width: 20px;
+}
+.address {
+  vertical-align: top;
+  color: rgba(0, 0, 0, 0.582);
+  font-size: 16px;
+}
+.email,
+.number,
+.linkedin {
+  vertical-align: top;
+  color: rgba(0, 0, 0, 0.582);
+  font-size: 16px;
+}
+.eduction {
+  margin-top: 20px;
+}
+.skills {
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 1.1rem;
+  vertical-align: top;
+}
+#subSkill {
+  display: inline;
+}
+.compnay {
+  width: 90px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.comp-post {
+  width: 50px;
+  color: rgba(0, 0, 0, 0.582);
+  font-size: 1.1rem;
+}
+.file {
+  display: none;
+}
+.pdf-c {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+#pdf-btn {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: blueviolet;
+}
+.collage {
+  vertical-align: top;
+  color: rgba(0, 0, 0, 0.582);
+  font-size: 16px;
+}
